@@ -113,6 +113,11 @@ img{
     text-align: center;
 }
 
+#footer-down-center span{
+    font-size: 15px;
+    margin: 0;
+}
+
 #footer-down-right{
     text-align: right;
 }
