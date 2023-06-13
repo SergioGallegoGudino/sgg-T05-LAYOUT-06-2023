@@ -10,6 +10,8 @@ body{
     font-size: 15px;
 }
 
+/* Estilos de la cabecera */
+
 .header{
     display: flex;
     width: 100vw;
@@ -49,6 +51,8 @@ span{
     color: white;
 }
 
+/* Estilos de la sección principal */
+
 .main{
     width: 100vw;
     height: 60vh;
@@ -64,6 +68,8 @@ span{
     width: 50vw;
     padding-bottom: 200px;
 }
+
+/* Estilos de la barra de búsqueda */
 
 #nav{
     background-color: white;
@@ -85,6 +91,8 @@ input{
     width: 100%;
     border-color: transparent;
 }
+
+/* Estilos del pie de página */
 
 .footer{
     width: 100vw;
@@ -125,6 +133,8 @@ input{
     justify-content: center;
     align-content: center;
 }
+
+/* Estilos de cada noticiario que aparece en el carrusel del pie de pagina */
 
 .news{
     width: 15vw;
@@ -177,6 +187,8 @@ input{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Estilos del pie de página */
 
 #footer-down{
     width: 100vw;

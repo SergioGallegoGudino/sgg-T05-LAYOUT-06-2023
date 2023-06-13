@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(21, 21, 21);
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Clase que define el numero de columnas que ocupa cada sección, así como su margen y color de texto */
+
+.column{
+    margin-left: 30px;
+    grid-column: 1 / 6;
+    color: white;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+/* Estilos de la cabecera */
+
+#header{
+    display: flex;
+    align-items: center;
+}
+
+#header-left, #header-right{
+    display: flex;
+    width: 50vw;
+}
+
+#header-right{
+    padding-right: 40px;
+}
+
+#header-left{
+    justify-content: left;
+    font-size: 15px;
+}
+
+#logo{
+    width: 10vw;
+    margin: 5px 30px 5px 0;
+}
+
+a, span{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#header-right{
+    justify-content: right;
+}
+
+/* Clase que define el tamaño y bordeado de todas las imagenes */
+
+.movie{
+    border-radius: 10px;
+    width: 290px;
+    height: 150px;
+}

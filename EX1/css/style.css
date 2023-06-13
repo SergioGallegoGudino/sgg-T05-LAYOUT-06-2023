@@ -3,6 +3,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Estilos de la cabecera */
+
 .header{
     height: 20vh;
     display: flex;
@@ -26,6 +28,8 @@ span{
     margin: 15px
 }
 
+/* Estilos de la sección principal */
+
 .main{
     height: 67vh;
     display: flex;
@@ -36,6 +40,8 @@ span{
     width: 50vw;
 
 }
+
+/* Estilos de las diferentes partes de la sección principal */
 
 #main-section-up{
     width: 50vw;
@@ -75,6 +81,8 @@ button{
 img{
     width: 600px;
 }
+
+/* Estilos del pie de página */
 
 .footer{
     background-color: rgb(230, 230, 230);
